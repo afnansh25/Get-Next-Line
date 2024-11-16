@@ -6,7 +6,7 @@
 /*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 13:21:54 by codespace         #+#    #+#             */
-/*   Updated: 2024/11/08 13:22:20 by codespace        ###   ########.fr       */
+/*   Updated: 2024/11/16 14:59:31 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ int main() {
         printf("%s", line);
         free(line);  // Remember to free the line after printing
     }
-
     close(fd);  // Close the file descriptor
     return 0;
 }
